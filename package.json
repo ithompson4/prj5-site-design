@@ -1,0 +1,38 @@
+{
+  "name": "prj-maps",
+  "version": "1.0.0",
+  "description": "maps for the prj proj",
+  "main": "final.js",
+  "scripts": {
+    "build:js": "browserify -t brfs mapBase.js > final.js ",
+    "build": "npm run build:js",
+    "build:watch": "beefy index.html & onchange 'dataLoader.js' 'mapBase.js' -- npm run build",
+    "watch": "onchange 'dataLoader.js' 'mapBase.js' '*.csv' -- npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascherman/prjMaps.git"
+  },
+  "keywords": [
+    "prj666"
+  ],
+  "author": "g5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nascherman/prjMaps/issues"
+  },
+  "homepage": "https://github.com/nascherman/prjMaps#readme",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^13.0.0",
+    "onchange": "^2.0.0"
+  },
+  "dependencies": {
+    "dom-css": "^2.0.0",
+    "domready": "^1.0.8",
+    "gsap": "^1.18.2",
+    "rainbowvis.js": "^1.0.1",
+    "rangeslider-js": "^1.2.9",
+    "topojson": "^1.6.22"
+  }
+}
