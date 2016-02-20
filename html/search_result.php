@@ -3,20 +3,28 @@
     <head>
         <title>Viz Search Result</title>
 		<meta charset="UTF-8">
-        <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />  
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen" /> 		
 		<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" media="screen" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="../js/bootstrap.js"></script>
+	    <script src="../js/bootstrap.js"></script>	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="../js/bootstrap.min.js"></script>		
+		<script src="../js/color_active.js"></script>			
+		<link rel="stylesheet" href="../css/mycss.css" type="text/css" media="screen" />  
     </head>
     <body>   
 		<?php include 'header.php';?>
+		<?php include 'carousel_slider.php';?>	
 		
         <div id="container">																																																																																		
 		    <div id="content">			
 			    <div class="col_left">				
 					<div class="news">
 					    <span id="span1">Featured</span>
-						<a href="#"><img src="../images/arr.png" alt="pic" /></a><br/ >
+						<a href="#"><img src="../images/arr.png" alt="pic" /></a><br />
 						<p>Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. 
 						Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. 
 						Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl.</p>
@@ -24,7 +32,7 @@
 					</div>
 					<div class="news">
 						<span id="span2">Featured</span>
-						<a href="#"><img src="../images/arr.png" alt="pic" width="25" height="25" /></a><br/ >
+						<a href="#"><img src="../images/arr.png" alt="pic" width="25" height="25" /></a><br />
 						<p>Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. 
 						Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. 
 						Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl.</p>
@@ -32,7 +40,7 @@
 					</div>
 					<div class="news">
 						<span id="span3">Featured</span>
-						<a href="#"><img src="../images/arr.png" alt="pic" width="25" height="25" /></a><br/ >
+						<a href="#"><img src="../images/arr.png" alt="pic" width="25" height="25" /></a><br />
 						<p>Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. 
 						Aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. 
 						Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl.</p>
@@ -43,7 +51,7 @@
                     <h1>Search a Visualization</h1>
 					<h2>Search Results:</h2> 
 					<div id="viz_img">
-					     <a href="../result_map.html" ><img src="../images/map_can.png" alt="viz" /></a>						
+					     <a href="result_map.php" ><img src="../images/map_can.png" alt="viz" /></a>						
 					    <p>
 						    <a href="#" >Document Title</a><br /><br />
 						    Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis, libero. 
@@ -55,3 +63,7 @@
 	    </div>
 		
         <?php include 'footer.php';?>
+
+	</body>
+</html>	
+	

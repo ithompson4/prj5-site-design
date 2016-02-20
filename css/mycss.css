@@ -1,0 +1,60 @@
+/* bootstrap css*/
+
+#myCarousel {
+	margin-top: -20px;
+}            
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+    margin: auto;				
+}
+			
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	background-color: #FF8000;
+}
+.navbar-default {
+	background-color: #808080;
+    font-size: 20px; 
+}
+.navbar-default .navbar-nav > li > a {
+	color: #F2F2F2; 
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #424242; 
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #FF8000;
+	line-height:22px;
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #F2F2F2;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		background-color: #FF8000;
+    }
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.affix + .container {
+    padding-top:50px
+}
+	
+.navbar-default
+{
+    min-height:50px;
+}
+	
+  

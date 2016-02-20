@@ -1,6 +1,5 @@
-<?php
-echo
-'   	<nav class="navbar navbar-default">
+
+    	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="90">
             <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -25,16 +24,19 @@ echo
 						<li class="dropdown"><a href="simple_viz.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="simple_viz.php">Simple Search</a></li>
-                                <li><a href="adv_viz.php">Advanced Search</a></li>
-                                <li><a href="#">Something else here</a></li>                                
+                                <li><a href="adv_viz.php">Advanced Search</a></li>                            
                             </ul>
                         </li> 						
                         <li><a href="#about">Compare</a></li>                
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-					    <li><a href="#login">Login</a></li>
+				        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-        </nav>'
-?>
+        </nav>
+		
+   
+		
+
+		

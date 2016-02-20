@@ -1,19 +1,14 @@
 body {
 	margin: 0;
-    background-size: cover;
+    background-size: cover;	
 } 
-
-/* header */ 
-
-#active  {
-    background: #FF8000;  
-}
 
 /* container */ 
 #container {
 	width: 80%;
     overflow: hidden;
     margin: auto;
+	background: #F2F2F2;
 }
 #content {
     font-size: 12px;
@@ -160,15 +155,12 @@ body {
 	text-decoration: none;
 }
 
-
 h1 {
-	color: #000000;
-    font: 30px Arial, Helvetica, sans-serif;
-    padding: 20px 0px 15px 0px;
 	text-align: center;
 }
-.form
-{
-margin-top: 100px;
-height: 150px;
-}
+
+
+
+
+
+
